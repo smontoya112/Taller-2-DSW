@@ -41,18 +41,26 @@
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <h4>Voten si quieren saber mas de Rachmaninoff</h4>
-                <form>
-                    <div>
-                        <input type="text" placeholder="jhondoe@gmail.com">
-
-                        <small>Por favor ingrese su dirección de correo electrónico.</small>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2>Opiniones sobre la musica de Sergei Rachmaninoff</h2>
+                        <form >
+                            <div class="mb-3">
+                                <label for="opinion" class="form-label">¿Cuál es tu opinión?</label>
+                                <input type="text" class="form-control text-center" id="opinion" name="opinion" placeholder="Me encanta!">
+                            </div>
+                            <div class="mb-3">
+                                <label for="jugador" class="form-label">¿Cuál es tu cancion favorita de Rachmaninoff?</label>
+                                <input type="text" class="form-control text-center" id="jugador" name="jugador" placeholder="Piano concherto 1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="correo" class="form-label">¿Cuál es tu correo?</label>
+                                <input type="email" class="form-control text-center" id="correo" name="correo" placeholder="Sergei@gmail.com">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar opinión</button>
+                        </form>
                     </div>
-                    <div>
-                        <textarea placeholder="Escriba sus comentarios aquí..."></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                </form>
+                </div>
             </div>
         </div>
 
